@@ -17,11 +17,16 @@ body {
   height: 100vh;
 }
 
+/* .container{
+
+} */
+
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 1rem 3rem 1rem 3rem;
+  
 }
 
 .header-logo img {
@@ -47,3 +52,6 @@ header {
   color: var(--cor-principal);
   
 }
+
+        /* SECTION HOME */
+

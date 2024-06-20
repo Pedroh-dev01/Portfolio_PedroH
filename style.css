@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 :root {
   --cor-principal: #57319c;
   --cor-secundaria: #fff;
@@ -11,28 +13,63 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
 }
 
 body {
   height: 100vh;
 }
 
-.img-de-fundo img{
+.img-de-fundo img {
   height: 1280px;
   width: 100%;
   position: absolute;
-  top:-15rem;
+  top: -14rem;
   bottom: 0;
   left: 0;
   z-index: 0;
 }
 
-header {
+#titulo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+  flex-direction: column;
+}
+
+#titulo-section h2 {
+  color: var(--cor-tercearia);
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  font-size: 70px;
+}
+
+#titulo-section h3 {
+  position: relative;
+  top: -3rem;
+}
+
+#header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: #FFFFFF90;
+}
+
+#header-container section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 1rem 3rem 1rem 3rem;
-  
+  padding: 1rem 3rem;
 }
 
 .header-logo img {
@@ -44,46 +81,129 @@ header {
 .header-links ul {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 4rem;
   list-style: none;
 }
 
 .header-links a {
   font-size: 18px;
   color: #000000;
-  
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .header-links a:hover {
   color: var(--cor-principal);
-  
+  transition: 0.4s linear;
+  font-size: 20px;
 }
 
-        /* SECTION HOME */
+/* SECTION HOME */
 
-.container-home{
+.container-home {
+  position: relative;
+  z-index: 99;
+}
+
+.container-home section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: auto 5rem auto 5rem;
+  margin: 5rem 5rem auto 5rem;
 }
 
-.home-info{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+.home-info {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 700;
 }
 
-.home-info h1{
+.home-info h1 {
   font-size: 5rem;
-  margin: -1rem auto -1rem auto
+  margin: -1rem auto -1rem auto;
 }
 
-.home-info h4{
+.home-info h4 {
   font-size: 2rem;
   color: var(--cor-principal);
 }
 
-.home-info span{
+.home-info span {
   font-size: 1.6rem;
 }
 
+/* SECTION ABOUT ME */
+
+.container-sobre {
+  background-color: var(--cor-principal);
+  margin-top: 16rem;
+  position: relative;
+}
+.container-sobre section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-sobre .conteudo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container-sobre .conteudo-container figure {
+  border: 10px solid #fff;
+  margin: auto auto auto 5rem;
+}
+
+.container-sobre .conteudo-container img {
+  height: 35rem;
+  position: relative;
+  top: -1.5rem;
+  left: -1.5rem;
+}
+
+.sobre-info {
+  width: 700px;
+  display: flex;
+  margin-top: -5rem;
+  margin-right: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sobre-info p {
+  font-family: "Arvo", serif;
+  font-size: 20px;
+  color: var(--cor-secundaria);
+  text-align: justify;
+  text-transform:initial;
+}
+
+.sobre-info h3{
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: var(--cor-tercearia);
+}
+
+.sobre-info .skill img{
+  height: 48px;
+  margin: 1rem;
+}
+
+.sobre-info button{
+  background-color: var(--cor-botao);
+  color: var(--cor-secundaria);
+  width: 30rem;
+  margin: auto 0;
+  padding: 1rem;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}

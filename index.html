@@ -7,35 +7,77 @@
     <title>Portfolio | PedroH</title>
   </head>
   <body>
-    <header class="container">
-      <figure class="header-logo">
-        <a href="index.html"><img src="img/logo.png" alt="logo" /></a>
-      </figure>
-      <div class="header-links">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#sobre">Contato</a></li>
-          <li><a href="#projeto">Projeto</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </div>
+    <header class="container" id="header-container">
+      <section>
+        <figure class="header-logo">
+          <a href="index.html"><img src="img/logo.png" alt="logo" /></a>
+        </figure>
+        <div class="header-links">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Contato</a></li>
+            <li><a href="#projeto">Projeto</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+      </section>
     </header>
+
     <div class="img-de-fundo">
-      <img src="img/layered-waves-haikei.svg">
+      <img src="img/layered-waves-haikei.svg" />
     </div>
+
     <main>
       <sectiom id="home" class="container-home">
-        <div class="home-info">
-          <span>👋 Olá, Meu nome é</span>
-          <h1>Pedro Henrique</h1>
-          <h4>Desenvolvedor Front-end</h4>
-        </div>
+        <section>
+          <div class="home-info">
+            <span>👋 Olá, Meu nome é</span>
+            <h1>Pedro Henrique</h1>
+            <h4>Desenvolvedor Front-end</h4>
+          </div>
 
-        <figure class="home-img">
-          <img src="img/menino.png" />
-        </figure>
-        
+          <figure class="home-img">
+            <img src="img/menino.png" />
+          </figure>
+        </section>
       </sectiom>
+
+      <section id="sobre" class="container-sobre">
+        <section>
+          <div id="titulo-section">
+            <h2>SOBRE MIM</h2>
+            <h3>About me</h3>
+          </div>
+
+          <div class="conteudo-container">
+            <figure>
+              <img src="img/pedro.jpg" alt="foto-de-Pedor" />
+            </figure>
+
+            <div class="sobre-info">
+              <p>
+                Prazer, meu nome é Pedro Henrique, tenho 18 anos e sou
+                apaixonado por tecnologia. Recentemente, comecei a estudar
+                programação web ao participar do curso online da Santander
+                Coders24 em parceria com a Ada Tech. Embora ainda esteja no
+                início da minha jornada de aprendizado, estou comprometido a me
+                aprofundar cada vez mais nesta área. Atualmente, não possuo
+                experiência profissional em programação, mas estou determinado a
+                ingressar no mercado e contribuir para o sucesso de uma empresa
+                no futuro.
+              </p>
+
+              <h3>Habilidade</h3>
+              <div class="skill">
+                <img src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
+                <img src="https://img.icons8.com/color/48/css3.png"alt="css3"/>
+                <img src="https://img.icons8.com/color/48/git.png"alt="git"/>
+              </div>
+              <button>Download CV</button>
+            </div>
+          </div>
+        </section>
+      </section>
     </main>
 
     <script src="script.js"></script>

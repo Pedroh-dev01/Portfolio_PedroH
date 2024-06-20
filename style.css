@@ -207,3 +207,21 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
+
+
+  /* PROJETO */
+
+  .container-projeto{
+    padding-top: 5rem;
+    background-color: var(--cor-principal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .projeto-conteudo{
+    background-color: var(--cor-quartenario);
+    width: 79rem;
+    height: 500px;
+    border-radius: 30px;
+  }

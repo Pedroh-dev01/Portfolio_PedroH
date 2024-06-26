@@ -526,7 +526,7 @@ transition: background-color 6000s color 6000s;
 
    /* RESPONSIVIDADE  */
 
-   @media (max-width: 460px) {
+   @media (max-width: 430px) {
     #header-container section {
       width: 460px;
       
@@ -547,7 +547,7 @@ transition: background-color 6000s color 6000s;
 
     .img-de-fundo img {
       width: 100%;
-      
+
     }
 
     .container-home section{

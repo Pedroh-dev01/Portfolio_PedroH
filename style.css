@@ -533,21 +533,41 @@ transition: background-color 6000s color 6000s;
     }
 
     .header-logo img {
-      height: 25px;
-      margin: auto 1rem auto -2rem ;
+      height: 30px;
+      margin: auto 5rem auto -1rem ;
     }
 
     .header-links ul{
-      gap: 1rem;
+      gap: 2rem;;
     }
 
     .header-links a{
-      font-size: 15px;
+      font-size: 17px;
     }
 
     .img-de-fundo img {
       width: 100%;
+      
     }
 
-    
+    .container-home section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column-reverse;
+      width: 100%;
+    }
+
+    .home-info{
+      width: 100%;
+      
+    }
+
+    .home-info h1{
+      font-size: 70px;
+    }
+
+
+
+  
   }

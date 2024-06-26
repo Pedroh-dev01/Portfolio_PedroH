@@ -152,12 +152,12 @@ body {
   width: 100%;
 }
 
-.container-sobre .conteudo-container figure {
+.conteudo-container figure {
   border: 10px solid #fff;
   margin: auto auto auto 10rem;
 }
 
-.container-sobre .conteudo-container img {
+.conteudo-container img {
   height: 40rem;
   position: relative;
   top: -1.5rem;
@@ -527,18 +527,27 @@ transition: background-color 6000s color 6000s;
    /* RESPONSIVIDADE  */
 
    @media (max-width: 430px) {
+
+    #titulo-section h2{
+      font-size: 40px;
+    }
+
+    #titulo-section h3{
+      font-size: 40px;
+      top: -1.6rem;
+    }
+
     #header-container section {
-      width: 460px;
-      
+      width: 100%;
     }
 
     .header-logo img {
-      height: 30px;
+      height: 25px;
       margin: auto 5rem auto -1rem ;
     }
 
     .header-links ul{
-      gap: 2rem;;
+      display:none;
     }
 
     .header-links a{
@@ -547,7 +556,7 @@ transition: background-color 6000s color 6000s;
 
     .img-de-fundo img {
       width: 100%;
-
+      top: 1px;
     }
 
     .container-home section{
@@ -560,14 +569,86 @@ transition: background-color 6000s color 6000s;
 
     .home-info{
       width: 100%;
-      
     }
 
     .home-info h1{
-      font-size: 70px;
+      font-size: 40px;
+      margin-bottom: .1px;
+      margin-top: .1px;
     }
 
+    .home-info h4{
+      font-size: 20px;
+    }
 
+    .home-info span{
+      font-size: 16px;
+    }
 
-  
+    .home-img img{
+      height: 360px;
+      margin-left: -6rem;
+    }
+
+    .container-sobre{
+      margin-top: 14.8rem;
+    }
+
+    .container-sobre section{
+      top: -10rem;
   }
+
+
+  .conteudo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .conteudo-container figure{
+    height: 410px;
+    margin: auto;
+  }
+
+  .conteudo-container img{
+    height: 400px;
+  }
+
+  .sobre-info{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 80%;
+  }
+
+  .sobre-info p{
+    font-size: 17px;
+    /* text-align: left; */
+  }
+
+  .sobre-info button{
+    width: 60%;
+    margin-top: -2rem;
+  }
+
+  .container-projeto{
+    padding-top: 2rem;
+  }
+
+  .card-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-img{
+    height: 280px;
+    border-radius: 2rem;
+  }
+
+
+    
+  }
+
+
+
+

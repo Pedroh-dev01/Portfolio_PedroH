@@ -413,7 +413,6 @@ body {
   color: var(--cor-secundaria);
   font-size: 30px;
   margin-bottom: 2rem;
-  /* text-align: center; */
 }
 
 .contato-form,
@@ -569,12 +568,11 @@ transition: background-color 6000s color 6000s;
 
     .home-info{
       width: 100%;
+      margin-left: -3rem;
     }
 
     .home-info h1{
-      font-size: 40px;
-      margin-bottom: .1px;
-      margin-top: .1px;
+      font-size: 50px;
     }
 
     .home-info h4{
@@ -616,19 +614,19 @@ transition: background-color 6000s color 6000s;
   }
 
   .sobre-info{
-    margin-top: 1rem;
+    margin-top: 3rem;
     margin-left: 2rem;
     width: 80%;
   }
 
   .sobre-info p{
     font-size: 17px;
-    /* text-align: left; */
   }
 
   .sobre-info button{
     width: 60%;
     margin-top: -2rem;
+    margin-bottom: 2rem;
   }
 
   .container-projeto{
@@ -645,8 +643,36 @@ transition: background-color 6000s color 6000s;
     border-radius: 2rem;
   }
 
+  #titulo-contato{
+    width: 260px;
+    padding: 0 1rem;
+    margin-left: 1rem;
+    top: 2rem;
+  }
 
-    
+  #titulo-contato h2{
+    font-size: 40px;
+  }
+
+  #titulo-contato h3{
+    font-size: 40px;
+    top: -2rem;
+  }
+
+  .container-contato{
+    margin-top: 6px;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .contato-email{
+    width: 100%;
+    left: 1rem;
+  }
+
+
+
   }
 
 

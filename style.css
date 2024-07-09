@@ -527,6 +527,10 @@ transition: background-color 6000s color 6000s;
 
    @media (max-width: 430px) {
 
+     .header-links ul{
+       display:none;
+     }
+
     #titulo-section h2{
       font-size: 40px;
     }
